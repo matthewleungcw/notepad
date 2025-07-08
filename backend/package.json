@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "prod": "npx tsc && node ./disc/server.js"
+    "prod": "npx tsc && node ./dist/server.js",
+    "build": "tsc",
+    "start": "node src/server.ts"
   },
   "keywords": [],
   "author": "",
